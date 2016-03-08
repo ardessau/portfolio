@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardessau/portfolio.git"
+  },
+  "author": "Audrey Dessauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardessau/portfolio/issues"
+  },
+  "homepage": "https://github.com/ardessau/portfolio#readme"
+}
