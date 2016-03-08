@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ardessau/portfolio/issues"
   },
-  "homepage": "https://github.com/ardessau/portfolio#readme"
+  "homepage": "https://github.com/ardessau/portfolio#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
