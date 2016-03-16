@@ -3,6 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Welcome to Audrey's Website!</title>
+    <link rel="stylesheet" href="simplecarousel.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="simplecarousel.js">
+
+/* =====================================
+ ** Simole Carousel- by JavaScript Kit (www.javascriptkit.com)
+ ** Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+===================================== */
+
+</script>
+
     <meta name="viewport" content="width=device-width, in<div class="container">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="css/styles.css" charset="utf-8"> -->
@@ -12,6 +24,20 @@
 
   <body>
       <h1>Welcome to My Website! Use any of the links below to find out more about me!</h1>
+      <div class="carousel" id="mycarousel">
+      <div class="belt">
+      <!-- actual carousel contents fetched via ajax and inserted here   -->
+      <script>
+          jQuery(function($){ // on DOM load
+              mycarousel = new simplecarousel({
+              id: 'mycarousel',
+              url: 'carouselcontent.htm',
+              dragleeway: 10 // <-- no comma after last setting
+             })
+          })
+      </script>
+      </div>
+      </div>
       <ul class="nav nav-pills nav-justified">
         <li class="active"><a href="index.html">Home</a></li>
         <li class="dropdown">
