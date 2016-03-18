@@ -24,20 +24,25 @@
 
   <body>
       <h1>Welcome to My Website! Use any of the links below to find out more about me!</h1>
-      <div class="carousel" id="mycarousel">
-      <div class="belt">
-      <!-- actual carousel contents fetched via ajax and inserted here   -->
-      <script>
-          jQuery(function($){ // on DOM load
-              mycarousel = new simplecarousel({
-              id: 'mycarousel',
-              url: 'carouselcontent.htm',
-              dragleeway: 10 // <-- no comma after last setting
-             })
-          })
-      </script>
-      </div>
-      </div>
+      <div class="slideshow"
+          data-cycle-fx=carousel
+          data-cycle-timeout=1000
+          data-cycle-carousel-visible=5
+          data-cycle-carousel-fluid=true
+    >
+    <img src="img/DSC_0365.jpg">
+    <img src="img/DSC_0373.jpg">
+    <img src="img/DSC_0379.jpg">
+    <img src="img/DSC_0381.jpg">
+    <img src="img/DSC_0396.jpg">
+    <img src="img/DSC_0415.jpg">
+    <img src="img/DSC_0425.jpg">
+    <img src="img/DSC_0452.jpg">
+    <img src="img/DSC_0454.jpg">
+    <img src="img/DSC_0460.jpg">
+    <img src="img/DSC_0461.jpg">
+    <img src="img/DSC_0502.jpg">
+</div>
       <ul class="nav nav-pills nav-justified">
         <li class="active"><a href="index.html">Home</a></li>
         <li class="dropdown">
