@@ -22,13 +22,68 @@ form {
   border: 5px solid #000;
   margin: 0 auto;
   width: 500px;
-
 }
 
-/*form.legend {
-  text-align: center;
-  text-decoration-style: dashed;
-}*/
+input[type=text], input[type=email] {
+    font-size: 20px;
+    font-family: Verdana;
+    margin-bottom:10px;
+    padding: 8px 6px;
+    height: 38px;
+    width:250px;
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=email] {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+input[type=phone] {
+    font-size: 20px;
+    font-family: Verdana;
+    margin-bottom:10px;
+    padding: 8px 6px;
+    height: 38px;
+    width:250px;
+    box-sizing: border-box;
+}
+
+input[type=phone] {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+input[type=submit], input[type=reset]{
+    /*font-size: 20px;
+    font-family: Verdana;
+    margin-bottom:10px;
+    padding: 8px 6px;*/
+    height: 38px;
+    width:100px;
+    /*box-sizing: border-box;*/
+}
+textarea {
+  font-size: 20px;
+  font-family: Verdana;
+  margin-bottom:20px;
+  padding: 8px 6px;
+  height: 100px;
+  width:300px;
+  box-sizing: border-box;
+}
+
+textarea {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+fieldset {
+        padding: 10px;
+    }
 
 .navbar {
   font-size:  1.6rem ; /* 16px */
