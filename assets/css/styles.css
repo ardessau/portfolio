@@ -14,6 +14,22 @@ body {
   background-size: cover;
   }
 
+form {
+  /*align-content: center;*/
+  text-align: center;
+  align-items: center;
+  background-color: gray;
+  border: 5px solid #000;
+  margin: 0 auto;
+  width: 500px;
+
+}
+
+/*form.legend {
+  text-align: center;
+  text-decoration-style: dashed;
+}*/
+
 .navbar {
   font-size:  1.6rem ; /* 16px */
   margin:0 auto;
