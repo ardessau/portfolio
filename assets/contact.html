@@ -18,7 +18,7 @@
             <li><a href="about.html">About Me</a></li>
             <li class="active"><a href="contact.html">Contact Me</a></li>
         </ul>
-        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script> -->
         <br><br>
         <form method="POST" action="mailto:ardessau@gmail.com" enctype="text/plain">
           <fieldset>
@@ -28,14 +28,25 @@
             Last name:<br>
             <input type="text" name="lastname"  required placeholder="Last name is a required field"><br>
             Email:<br>
-            <input type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter a valid email address"><br>
-            Phone Number: (format:xxx-xxx-xxxx) (Optional)<br>
-            <input type="tel" name="phone" pattern="^\d{4}-\d{3}-\d{4}$"><br>
+            <input type="email" name="email" required
+                   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                   placeholder="Enter a valid email address"><br>
+            Phone Number: (format:xxx-xxx-xxxx)<br>
+            <input type="tel" name="phone" required=pattern="^\d{3}-\d{3}-\d{4}$"
+                    placeholder="Phone number is a required field"><br>
+            Subject Line: <br>
+            <select class ="subject" name="subject">
+               <option value = "I like your website!">I like your website!</option>
+               <option value = "Can you design a website for me?">Can you design a website for me?</option>
+               <option value = "Can you come work for us?">Can you come work for us?</option>
+               <option value = "General Inquiry">General Inquiry</option>
+             </select>
+             <br>
             Message:<br>
             <textarea name="message" required placeholder="Message is a required field"
                       cols="60" rows="8"></textarea><br><br>
-            <input name="redirect" type="hidden" VALUE="confirm.html">
-            <input name="next_url" type="hidden" VALUE="confirm.html">
+            <!-- <input name="redirect" type="hidden" VALUE="confirm.html">
+            <input name="next_url" type="hidden" VALUE="confirm.html"> -->
             <input type="submit" value="Send Email">
             <input type="reset" value="Reset Form">
             <br><br>

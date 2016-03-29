@@ -24,6 +24,16 @@ form {
   width: 500px;
 }
 
+.subject {
+  font-size: 20px;
+  font-family: Verdana;
+  margin-bottom:10px;
+  padding: 8px 6px;
+  height: 50px;
+  width:400px;
+  box-sizing: border-box;
+}
+
 input[type=text], input[type=email] {
     font-size: 20px;
     font-family: Verdana;
@@ -40,7 +50,7 @@ input[type=text], input[type=email] {
     width: 100%;
 }
 
-input[type=phone] {
+input[type=tel] {
     font-size: 20px;
     font-family: Verdana;
     margin-bottom:10px;
@@ -50,7 +60,7 @@ input[type=phone] {
     box-sizing: border-box;
 }
 
-input[type=phone] {
+input[type=tel] {
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
