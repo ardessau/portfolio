@@ -20,19 +20,20 @@
         </ul>
         <!-- <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script> -->
         <br><br>
-        <form method="POST" action="mailto:ardessau@gmail.com" enctype="text/plain">
+        <!-- <form method="POST" action="mailto:ardessau@gmail.com" enctype="text/plain"> -->
+        <form method="POST" action="/capture" enctype="text/plain">
           <fieldset>
             CONTACT FORM:<br><br>
-            First name:<br>
+            First Name:<br>
             <input type="text" name="firstname" required placeholder="First name is a required field"><br>
-            Last name:<br>
+            Last Name:<br>
             <input type="text" name="lastname"  required placeholder="Last name is a required field"><br>
             Email:<br>
             <input type="email" name="email" required
                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                    placeholder="Enter a valid email address"><br>
             Phone Number: (format:xxx-xxx-xxxx)<br>
-            <input type="tel" name="phone" required=pattern="^\d{3}-\d{3}-\d{4}$"
+            <input type="tel" name="phone" required pattern="^\d{3}-\d{3}-\d{4}$"
                     placeholder="Phone number is a required field"><br>
             Subject Line: <br>
             <select class ="subject" name="subject">
