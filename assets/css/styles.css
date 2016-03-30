@@ -161,9 +161,10 @@ font-size: 14px;
 	}
 
 .carousel ul li {
-		width:480px;
+		width:499px;
 		text-align: center;
-		height: 280px;
+		height: 900px;
 		list-style: none;
+    /*list-style: circle;*/
 		float:	left;
 	}
