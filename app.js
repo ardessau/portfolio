@@ -39,8 +39,8 @@ app.post('/capture', function(req, res, next){
   return res.send("Thank You!");
 })
 
-app.use(express.static('./public'));
-
+app.use('/static', express.static('./assets'));
+// path to pages:  http://localhost:3333/static/index.html
 
 server.listen(3333);
 

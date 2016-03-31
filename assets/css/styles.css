@@ -105,6 +105,7 @@ font-family: Verdana;
 font-size:20px;
 list-style:none;
 margin:0 auto;
+margin-bottom: 2em;
 padding:0;
 width: auto;
 overflow: auto;
@@ -152,6 +153,7 @@ font-size: 14px;
 .carousel {
 		width: 480px;
 		overflow:hidden;
+    margin: 0 auto;
 	}
 
 .carousel ul {
@@ -161,7 +163,7 @@ font-size: 14px;
 	}
 
 .carousel ul li {
-		width:499px;
+		width:900px;
 		text-align: center;
 		height: 900px;
 		list-style: none;
