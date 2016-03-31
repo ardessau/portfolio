@@ -1,8 +1,12 @@
 h1 {
   text-align: center;
-  /*color: #191970;*/
   color: #0d0d0d;
-
+  font-size: 40px;
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+  color: #ffffff;
 }
 
 body {
@@ -12,12 +16,20 @@ body {
   font-family: Verdana;
   background: url(../img/DSC_0419a.jpg);
   background-size: cover;
+  /*image-orientation: center;*/
+  /*align-content: center;*/
   }
+
+.poem {
+  margin: 0 auto;
+  display: block;
+}
 
 form {
   /*align-content: center;*/
   text-align: center;
   align-items: center;
+  align-content: center;
   background-color: gray;
   border: 5px solid #000;
   margin: 0 auto;
@@ -151,7 +163,7 @@ font-size: 14px;
 }
 
 .carousel {
-		width: 480px;
+		width: 1000px;
 		overflow:hidden;
     margin: 0 auto;
 	}
@@ -167,6 +179,5 @@ font-size: 14px;
 		text-align: center;
 		height: 900px;
 		list-style: none;
-    /*list-style: circle;*/
-		float:	left;
+    float:	left;
 	}

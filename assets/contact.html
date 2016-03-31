@@ -19,42 +19,38 @@
             <li class="active"><a href="contact.html">Contact Me</a></li>
         </ul>
         <!-- <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script> -->
-        <br><br>
+
         <!-- <form method="POST" action="mailto:ardessau@gmail.com" enctype="text/plain"> -->
+        <h2>Contact Form:</h2>
         <form method="POST" action="/capture" enctype="text/plain">
           <fieldset>
-            CONTACT FORM:<br><br>
-            First Name:<br>
+            First Name:
             <input type="text" name="firstname" required placeholder="First name is a required field"><br>
-            Last Name:<br>
+            Last Name:
             <input type="text" name="lastname"  required placeholder="Last name is a required field"><br>
-            Email:<br>
+            Email:
             <input type="email" name="email" required
                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                   placeholder="Enter a valid email address"><br>
-            Phone Number: (format:xxx-xxx-xxxx)<br>
+                   placeholder="Enter a valid email address">
+            Phone Number: (format:xxx-xxx-xxxx)
             <input type="tel" name="phone" required pattern="^\d{3}-\d{3}-\d{4}$"
-                    placeholder="Phone number is a required field"><br>
-            Subject Line: <br>
+                    placeholder="Phone number is a required field">
+            Subject Line:
             <select class ="subject" name="subject">
                <option value = "I like your website!">I like your website!</option>
                <option value = "Can you design a website for me?">Can you design a website for me?</option>
                <option value = "Can you come work for us?">Can you come work for us?</option>
                <option value = "General Inquiry">General Inquiry</option>
              </select>
-             <br>
-            Message:<br>
+            Message:
             <textarea name="message" required placeholder="Message is a required field"
-                      cols="60" rows="8"></textarea><br><br>
+                      cols="60" rows="8"></textarea>
             <!-- <input name="redirect" type="hidden" VALUE="confirm.html">
             <input name="next_url" type="hidden" VALUE="confirm.html"> -->
             <input type="submit" value="Send Email">
             <input type="reset" value="Reset Form">
-            <br><br>
           </fieldset>
       </form>
-
-
         <!-- <form method="POST" action="process_the_form">
             <h3>name</h3>
             <input id="textfieldname" name="name" placeholder="Please put in your name!">
